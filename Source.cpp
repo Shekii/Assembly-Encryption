@@ -4,7 +4,7 @@
 // Filename: "4473 FoCA 2016 Encryption Original with ASM.cpp"
 //
 // Harry Walker, last update: Apr 2016
-// Student no: 25044102
+
 
 #include <conio.h>		// for kbhit
 #include <iostream>		// for cin >> and cout <<
@@ -111,7 +111,7 @@ void encrypt_chars(int length, char EKey)
 
 
 	// Encrypt subroutine. You should paste in the encryption routine you've been allocated from Bb and
-	// overwrite this initial, simple, version. Ensure you change the ‘call’ above to use the
+	// overwrite this initial, simple, version. Ensure you change the â€˜callâ€™ above to use the
 	// correct 'encryptnn' label where nn is your encryption routine number.
 	// Inputs: register EAX = 32-bit address of Ekey,
 	//					ECX = the character to be encrypted (in the low 8-bit field, CL).
